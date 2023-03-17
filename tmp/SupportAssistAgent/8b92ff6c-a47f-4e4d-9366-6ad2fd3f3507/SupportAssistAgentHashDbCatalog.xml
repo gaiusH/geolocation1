@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HashDB>
+		<BaseLocation>https://downloads.dell.com</BaseLocation>
+		<CatalogVersion>2.0</CatalogVersion>
+		<BaseHashDBProduct>
+			<Product>
+				<ID>BaseHashDB</ID>
+				<DisplayName>BaseHashDB</DisplayName>
+				<Version>20170804</Version>	
+				<DownloadPathURL>serviceability/Client/HashDB/BaseDB.cab</DownloadPathURL>
+				<DownloadFilehash>514E9FECF36C12B77591795695F5536E88CCEDE61C0E393F3E597AF1EE1F8EE2</DownloadFilehash>
+				<releaseDate>2017-08-04T09:00:00</releaseDate>
+				<DependsOn>
+				</DependsOn>
+			</Product>
+		</BaseHashDBProduct>
+		<UpdateHashDBProduct>
+			<Product>
+				<ID>UpdateHashDb</ID>
+				<DisplayName>UpdateHashDb</DisplayName>
+				<Version>20221201</Version>	
+				<DownloadPathURL>serviceability/Client/HashDB/Index.cab</DownloadPathURL>
+				<DownloadFilehash>C5CE12D3D5769D09F2962CE459A097E0B5B3011ACCE18F8DADADE81683616B0E</DownloadFilehash>
+				<releaseDate>2022-12-01T09:00:00</releaseDate>
+				<DependsOn>
+				</DependsOn>
+			</Product>
+		</UpdateHashDBProduct>
+	</HashDB>

@@ -1,0 +1,130 @@
+[11584:11580:0223/235527.156:231625:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[11584:11580:0223/235527.156:231625:VERBOSE1:setup_main.cc(2848)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\110.0.1587.50\Installer\setup.exe" --configure-user-settings --verbose-logging --system-level --msedge --channel=stable
+[11584:11580:0223/235527.156:231625:VERBOSE1:setup_main.cc(2854)] system install is 1
+[11584:11580:0223/235527.156:231625:WARNING:app_command.cc(95)] Error reading CommandLine value from registry: 2
+[11584:11580:0223/235527.156:231625:VERBOSE1:app_commands.cc(51)] Skipping over key "on-logon-autolaunch" as it does not appear to hold a product command.
+[11584:11580:0223/235527.172:231640:VERBOSE1:installer_state.cc(95)] Install
+[11584:11580:0223/235527.172:231640:VERBOSE1:install_util.cc(307)] Windows NT 10.0.22621
+[11584:11580:0223/235527.172:231640:VERBOSE1:install.cc(1314)] Executing HandleActiveSetupForBrowser. Force: 0
+[11584:11580:0223/235527.172:231640:VERBOSE1:install_worker.cc(1561)] Adding unregistration items for per-user Metro keys.
+[11584:11580:0223/235527.172:231640:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list Cleanup deprecated per-user registrations
+[11584:11580:0223/235527.172:231640:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Microsoft\Edge\Metro
+[11584:11580:0223/235527.172:231640:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Microsoft\Edge\Metro
+[11584:11580:0223/235527.172:231640:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list Cleanup deprecated per-user registrations
+[11584:11580:0223/235527.172:231640:VERBOSE1:install.cc(839)] Launching ""C:\Program Files (x86)\Microsoft\Edge\Application\110.0.1587.50\Installer\setup.exe" --msedge --channel=stable --system-level --verbose-logging --installerdata="C:\Program Files (x86)\Microsoft\Edge\Application\master_preferences" --create-shortcuts=2 --install-level=0" to create shortcuts
+[11608:11616:0223/235527.212:231671:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[11608:11616:0223/235527.212:231671:VERBOSE1:setup_main.cc(2848)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\110.0.1587.50\Installer\setup.exe" --msedge --channel=stable --system-level --verbose-logging --installerdata="C:\Program Files (x86)\Microsoft\Edge\Application\master_preferences" --create-shortcuts=2 --install-level=0
+[11608:11616:0223/235527.212:231671:VERBOSE1:setup_main.cc(2854)] system install is 1
+[11608:11616:0223/235527.212:231671:WARNING:app_command.cc(95)] Error reading CommandLine value from registry: 2
+[11608:11616:0223/235527.212:231671:VERBOSE1:app_commands.cc(51)] Skipping over key "on-logon-autolaunch" as it does not appear to hold a product command.
+[11608:11616:0223/235527.219:231687:VERBOSE1:installer_state.cc(95)] Install
+[11608:11616:0223/235527.219:231687:VERBOSE1:install_util.cc(307)] Windows NT 10.0.22621
+[11608:11616:0223/235527.235:231703:VERBOSE1:shell_util.cc(4775)] IsEnterpriseDevice() returning false
+[11608:11616:0223/235527.235:231703:VERBOSE1:shell_util.cc(3239)] ShouldCreateDesktopShortcut() returning true
+[11608:11616:0223/235527.235:231703:VERBOSE1:install.cc(187)] Overwriting per-user Desktop "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[11608:11616:0223/235527.235:231703:WARNING:install.cc(185)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Desktop "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[11608:11616:0223/235527.235:231703:VERBOSE1:install.cc(187)] Overwriting per-user Quick Launch "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[11608:11616:0223/235527.689:232156:VERBOSE1:install.cc(187)] Overwriting per-user Start menu "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[11608:11616:0223/235527.689:232156:WARNING:install.cc(185)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Start menu "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[11608:11616:0223/235527.689:232156:VERBOSE1:setup_main.cc(3039)] NonInstall operation completed. Exit code: 99
+[11608:11616:0223/235527.705:232171:ERROR:persistent_histogram_storage.cc(152)] Persistent histograms fail to write to file: C:\Program Files (x86)\Microsoft\Edge\Application\SetupMetrics\20230223235527689_11608.pma
+[11584:11580:0223/235527.713:232171:VERBOSE1:install.cc(855)] Shortcut creation process succeeded.
+[11584:11580:0223/235527.713:232171:VERBOSE1:install.cc(1354)] Setting EdgeUWP associations as known to overcome shell bug.
+[11584:11580:0223/235527.713:232171:VERBOSE1:shell_util.cc(4832)] Taking default associations
+[11584:11580:0223/235527.784:232250:VERBOSE1:shell_util.cc(2046)] No default associations to modify were found.
+[11584:11580:0223/235527.784:232250:VERBOSE1:shell_util.cc(5031)] Attempting to set Edge as the default MHT handler
+[11584:11580:0223/235527.784:232250:VERBOSE1:shell_util.cc(5066)] Another app is already the default for .mht
+[11584:11580:0223/235527.784:232250:VERBOSE1:shell_util.cc(5066)] Another app is already the default for .mhtml
+[11584:11580:0223/235527.784:232250:VERBOSE1:install.cc(1407)] Launching msedge to finish Active Setup
+[11584:11580:0223/235527.784:232250:VERBOSE1:install.cc(1092)] Launching ""C:\Program Files (x86)\Microsoft\Edge\Application\110.0.1587.50\Installer\setup.exe" --msedge --channel=stable --launch-msedge-after-unlock --verbose-logging --system-level" to wait for unlock.
+[11584:11580:0223/235527.799:232265:VERBOSE1:install.cc(1418)] Active-Setup phase took 628 msecs.
+[11584:11580:0223/235527.799:232265:VERBOSE1:install_util.cc(276)] Existing version found: 110.0.1587.56
+[11584:11580:0223/235527.799:232265:VERBOSE1:setup_main.cc(3039)] NonInstall operation completed. Exit code: 0
+[12240:12236:0223/235527.815:232281:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[12240:12236:0223/235527.815:232281:VERBOSE1:setup_main.cc(2848)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\110.0.1587.50\Installer\setup.exe" --msedge --channel=stable --launch-msedge-after-unlock --verbose-logging --system-level
+[12240:12236:0223/235527.815:232281:VERBOSE1:setup_main.cc(2854)] system install is 1
+[12240:12236:0223/235527.815:232281:WARNING:app_command.cc(95)] Error reading CommandLine value from registry: 2
+[12240:12236:0223/235527.815:232281:VERBOSE1:app_commands.cc(51)] Skipping over key "on-logon-autolaunch" as it does not appear to hold a product command.
+[11584:11580:0223/235527.815:232281:ERROR:persistent_histogram_storage.cc(152)] Persistent histograms fail to write to file: C:\Program Files (x86)\Microsoft\Edge\Application\SetupMetrics\20230223235527799_11584.pma
+[12240:12236:0223/235527.831:232296:VERBOSE1:installer_state.cc(95)] Install
+[12240:12236:0223/235527.831:232296:VERBOSE1:install_util.cc(307)] Windows NT 10.0.22621
+[12240:12236:0223/235527.831:232296:VERBOSE1:auto_launch_util.cc(441)] Waiting for OOBE to complete for up to: 600000 msecs.
+[12240:12236:0223/235643.696:308156:VERBOSE1:auto_launch_util.cc(447)] OOBE completed after 75000 msecs.
+[12240:12236:0223/235643.711:308171:VERBOSE1:auto_launch_util.cc(497)] Waiting for unlock notification.
+[12240:12236:0224/000011.814:516281:VERBOSE1:auto_launch_util.cc(505)] Done waiting for unlock notification.
+[12240:12236:0224/000011.816:516281:VERBOSE1:setup_main.cc(1964)] The browser will not be auto-launched. It ran once already.
+[12240:12236:0224/000011.816:516281:VERBOSE1:setup_main.cc(3039)] NonInstall operation completed. Exit code: 0
+[12240:12236:0224/000011.836:516296:ERROR:persistent_histogram_storage.cc(152)] Persistent histograms fail to write to file: C:\Program Files (x86)\Microsoft\Edge\Application\SetupMetrics\20230224000011819_12240.pma
+[14632:14636:0310/074203.436:4494468:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[14632:14636:0310/074203.436:4494468:VERBOSE1:setup_main.cc(2848)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.63\Installer\setup.exe" --msedgewebview --delete-old-versions --system-level --verbose-logging --on-logon
+[14632:14636:0310/074203.436:4494468:VERBOSE1:setup_main.cc(2854)] system install is 1
+[14632:14636:0310/074203.452:4494484:VERBOSE1:installer_state.cc(95)] Install
+[14632:14636:0310/074203.452:4494484:VERBOSE1:install_util.cc(307)] Windows NT 10.0.22621
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 1
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[14632:14636:0310/074203.452:4494484:VERBOSE1:installer_state.cc(95)] Install
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (0)
+[14632:14636:0310/074203.452:4494484:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[14632:14636:0310/074203.452:4494484:WARNING:delete_old_versions.cc(265)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.56
+[14632:14636:0310/074203.452:4494484:WARNING:delete_old_versions.cc(265)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.57
+[14632:14636:0310/074203.499:4494531:VERBOSE1:delete_old_versions.cc(184)] Removing Firewall rules for old version C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.57\msedgewebview2.exe
+[14632:14636:0310/074203.577:4494609:VERBOSE1:delete_old_versions.cc(472)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(740)] Successfully deleted all old files from --delete-old-versions process.
+[14632:14636:0310/074203.593:4494625:VERBOSE1:delete_old_versions.cc(524)] Version directories count: 1, full version directories count: 1
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(1271)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.46
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(1271)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.49
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(1271)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.56
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(1279)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.57
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(1279)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.63
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(1322)] PruneUnusedCoreVersions count=5
+[14632:14636:0310/074203.593:4494625:VERBOSE1:install_util.cc(276)] Existing version found: 110.0.1587.63
+[14632:14636:0310/074203.593:4494625:VERBOSE1:setup_main.cc(3039)] NonInstall operation completed. Exit code: 62
+[10844:10788:0315/175005.253:92296:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[10844:10788:0315/175005.253:92296:VERBOSE1:setup_main.cc(2848)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.69\Installer\setup.exe" --msedgewebview --delete-old-versions --system-level --verbose-logging --on-logon
+[10844:10788:0315/175005.253:92296:VERBOSE1:setup_main.cc(2854)] system install is 1
+[10844:10788:0315/175005.269:92312:VERBOSE1:installer_state.cc(95)] Install
+[10844:10788:0315/175005.269:92312:VERBOSE1:install_util.cc(307)] Windows NT 10.0.22621
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 1
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[10844:10788:0315/175005.269:92312:VERBOSE1:installer_state.cc(95)] Install
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (0)
+[10844:10788:0315/175005.269:92312:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[10844:10788:0315/175005.269:92312:WARNING:delete_old_versions.cc(265)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.63
+[10844:10788:0315/175005.300:92343:VERBOSE1:delete_old_versions.cc(184)] Removing Firewall rules for old version C:\Program Files (x86)\Microsoft\EdgeWebView\Application\110.0.1587.63\msedgewebview2.exe
+[10844:10788:0315/175005.348:92390:VERBOSE1:delete_old_versions.cc(472)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[10844:10788:0315/175005.363:92406:VERBOSE1:setup_main.cc(740)] Successfully deleted all old files from --delete-old-versions process.
+[10844:10788:0315/175005.363:92406:VERBOSE1:delete_old_versions.cc(524)] Version directories count: 1, full version directories count: 1
+[10844:10788:0315/175005.363:92406:VERBOSE1:setup_main.cc(1271)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.49
+[10844:10788:0315/175005.363:92406:VERBOSE1:setup_main.cc(1271)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.56
+[10844:10788:0315/175005.363:92406:VERBOSE1:setup_main.cc(1295)] PruneUnusedCoreVersions prune(1) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.63
+[10844:10788:0315/175005.363:92406:VERBOSE1:uninstall.cc(1333)] Changing current directory to: **PII**\AppData\Local\Temp
+[10844:10788:0315/175005.363:92406:VERBOSE1:uninstall.cc(1346)] Attempting to move setup.exe to: **PII**\AppData\Local\Temp\4cc7b637-a772-4ad7-a9d0-b235d28ee9b4.tmp
+[10844:10788:0315/175005.394:92437:VERBOSE1:setup_main.cc(1279)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\110.0.1587.69
+[10844:10788:0315/175005.394:92437:VERBOSE1:setup_main.cc(1279)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\111.0.1661.41
+[10844:10788:0315/175005.394:92437:VERBOSE1:setup_main.cc(1322)] PruneUnusedCoreVersions count=4
+[10844:10788:0315/175005.394:92437:VERBOSE1:install_util.cc(276)] Existing version found: 110.0.1587.69
+[10844:10788:0315/175005.394:92437:VERBOSE1:setup_main.cc(3039)] NonInstall operation completed. Exit code: 62

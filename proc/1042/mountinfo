@@ -1,0 +1,4 @@
+0 0 21109:31156 / / binary,noacl,auto - ntfs C:/Program Files/Git rw
+1 1 21109:31156 / /bin binary,noacl,auto - ntfs C:/Program Files/Git/usr/bin rw
+2 2 21109:31156 / /tmp binary,noacl,posix=0,usertemp - ntfs C:/Users/GAIUSH~1/AppData/Local/Temp rw
+3 3 21109:31156 / /c binary,noacl,posix=0,user,noumount,auto - ntfs C: rw

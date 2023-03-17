@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <update throttle="100" rescan="1440" currentversion="23.038.0219.0001" maxapplicable="23.999.9999.9999" minapplicable="16.000.0000.0000" maxrandomdelay="360" absolutedelay="4320" useractivedelay="7" maxidlechecks="6">
+    <binary sha1hash="Dd2kIhCZHVYirAP8OCbj+Sk8Bno=" sha256hash="NGWpo0rLZznvBgAPQjfM8bAgCB5wpcoVZRrxS6ZCZrs=" url="https://oneclient.sfx.ms/Win/Installers/23.038.0219.0001/OneDriveSetup.exe" />
+    <amd64binary sha1hash="M0djsHVr/sO7Vy94M5RDxICdXOs=" sha256hash="HZsvY+c0XPxpUTmE8Z/lDKkH9zySQngM4ygTZzl2Y5w=" url="https://oneclient.sfx.ms/Win/Installers/23.038.0219.0001/amd64/OneDriveSetup.exe" />
+    <arm64binary sha1hash="ycy14tjIJxnwmBT4lhfkFEoOhkg=" sha256hash="3hqHFC2M8QMGdiITRW3+NSaf17Fo2R+EEh4C9XYYm2Q=" url="https://oneclient.sfx.ms/Win/Installers/23.038.0219.0001/arm64/OneDriveSetup.exe" />
+  </update>
+</root>

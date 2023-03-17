@@ -1,0 +1,565 @@
+<?xml version="1.0"?>
+<DellSoftware xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bundle>
+    <BaseLocation>https://downloads.dell.com</BaseLocation>
+    <CatalogVersion>2.0</CatalogVersion>
+    <Product>
+      <ID>SupportAssistAgent</ID>
+      <DisplayName>SupportAssistInstaller</DisplayName>
+      <Version>
+        <MajorVersion>3</MajorVersion>
+        <MinorVersion>13</MinorVersion>
+        <BuildNumber>2</BuildNumber>
+        <Revision>14</Revision>
+      </Version>
+      <TargetOSes>
+        <TargetOS>
+          <OSCode>WIN</OSCode>
+          <OSVendor>Microsoft</OSVendor>
+          <OSVendorURL>http://microsoft.com/</OSVendorURL>
+          <Display>Microsoft Windows</Display>
+          <Architecture>x86</Architecture>
+          <DownloadPathURL>serviceability/Catalog/SupportAssistInstaller.exe</DownloadPathURL>
+          <DownloadFilehash>1E77C5D23920E57592205296DE01AD09C9C3473D767726E8AE0DECB354DEE1EE</DownloadFilehash>
+          <releaseDate>2023-02-08T09:00:00</releaseDate>
+          <Criticality>
+            <Value>TBD</Value>
+            <Description>TBD</Description>
+            <Display>TBD</Display>
+            <ImportantInfoURL>TBD</ImportantInfoURL>
+          </Criticality>
+          <SupportedVersions>
+            <SupportedVersion>
+              <MajorVersion>TBD</MajorVersion>
+              <MinorVersion>TBD</MinorVersion>
+              <BuildNumber>TBD</BuildNumber>
+              <Revision>TBD</Revision>
+            </SupportedVersion>
+          </SupportedVersions>
+          <DependsOnProducts>
+            <DependsOnProduct>
+              <ProductID>TBD</ProductID>
+              <Versions>
+                <Version>
+                  <MajorVersion>TBD</MajorVersion>
+                  <MinorVersion>TBD</MinorVersion>
+                  <BuildNumber>TBD</BuildNumber>
+                  <Revision>TBD</Revision>
+                </Version>
+              </Versions>
+            </DependsOnProduct>
+          </DependsOnProducts>
+        </TargetOS>
+        <TargetOS>
+          <OSCode>WIN</OSCode>
+          <OSVendor>Microsoft</OSVendor>
+          <OSVendorURL>http://microsoft.com/</OSVendorURL>
+          <Display>Microsoft Windows</Display>
+          <Architecture>x64</Architecture>
+          <DownloadPathURL>serviceability/Catalog/SupportAssistInstaller.exe</DownloadPathURL>
+          <DownloadFilehash>1E77C5D23920E57592205296DE01AD09C9C3473D767726E8AE0DECB354DEE1EE</DownloadFilehash>
+          <releaseDate>2023-02-08T09:00:00</releaseDate>
+          <Criticality>
+            <Value>TBD</Value>
+            <Description>TBD</Description>
+            <Display>TBD</Display>
+            <ImportantInfoURL>TBD</ImportantInfoURL>
+          </Criticality>
+          <SupportedVersions>
+            <SupportedVersion>
+              <MajorVersion>TBD</MajorVersion>
+              <MinorVersion>TBD</MinorVersion>
+              <BuildNumber>TBD</BuildNumber>
+              <Revision>TBD</Revision>
+            </SupportedVersion>
+          </SupportedVersions>
+          <DependsOnProducts>
+            <DependsOnProduct>
+              <ProductID>TBD</ProductID>
+              <Versions>
+                <Version>
+                  <MajorVersion>TBD</MajorVersion>
+                  <MinorVersion>TBD</MinorVersion>
+                  <BuildNumber>TBD</BuildNumber>
+                  <Revision>TBD</Revision>
+                </Version>
+              </Versions>
+            </DependsOnProduct>
+          </DependsOnProducts>
+        </TargetOS>
+      </TargetOSes>
+    </Product>
+	<CommercialProducts>
+		<Product>
+				<ID>SupportAssistCommercial</ID>
+				<DisplayName>Dell SupportAssist</DisplayName>
+				<Version>
+					<MajorVersion>2</MajorVersion>
+					<MinorVersion>2</MinorVersion>
+					<BuildNumber>2</BuildNumber>
+					<Revision>5</Revision>
+				</Version>	
+				<DownloadPathURL>serviceability/Catalog/SupportAssistx86.msi</DownloadPathURL>
+				<DownloadFilehash>214F8154EA3803C291E9E523AAE1B4D309595A9DE18693A2770358234549242C</DownloadFilehash>
+				<InstallParams>/i</InstallParams>
+				<InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>  
+				<Command>msiexec.exe</Command>
+				<releaseDate>2020-03-12T10:00:00</releaseDate>
+				<Criticality>
+						<Value>TBD</Value>
+						<Description>TBD</Description>
+						<Display>TBD</Display>
+						<ImportantInfoURL>TBD</ImportantInfoURL>
+					</Criticality>
+				<DependsOn>
+					<Categories>
+					  <Category Property="OSArchitecture" Class="Win32_OperatingSystem">
+						<Include>32</Include>
+					</Category>
+					<Category Property="BuildNumber" Class="Win32_OperatingSystem">
+						<Include>.*</Include>
+						<Exclude>7600</Exclude>
+						<Exclude>7601</Exclude>
+				    </Category>
+				    </Categories>
+				</DependsOn>
+			</Product>
+		    <Product>
+				<ID>SupportAssistCommercial</ID>
+				<DisplayName>Dell SupportAssist Commercial</DisplayName>
+				<Version>
+					<MajorVersion>3</MajorVersion>
+					<MinorVersion>3</MinorVersion>
+					<BuildNumber>1</BuildNumber>
+					<Revision>93</Revision>
+				</Version>	
+				<DownloadPathURL>serviceability/Catalog/SupportAssistx64.exe</DownloadPathURL>
+				<DownloadFilehash>6E59892564FC678F4518F4145D2781B415149EDEA10F1E9D9959AC67199A9683</DownloadFilehash>
+				<InstallParams></InstallParams>
+				<InstallParams2></InstallParams2>  
+				<Command></Command>
+				<releaseDate>2022-12-10T16:00:00</releaseDate>
+				<Criticality>
+						<Value>TBD</Value>
+						<Description>TBD</Description>
+						<Display>TBD</Display>
+						<ImportantInfoURL>TBD</ImportantInfoURL>
+					</Criticality>
+				<DependsOn>
+					<Categories>
+					  <Category Property="OSArchitecture" Class="Win32_OperatingSystem">
+						<Include>64</Include>
+					</Category>
+					<Category Property="BuildNumber" Class="Win32_OperatingSystem">
+						<Include>.*</Include>
+						<Exclude>7600</Exclude>
+						<Exclude>7601</Exclude>
+						<Exclude>9200</Exclude>
+						<Exclude>9600</Exclude>
+						<Exclude>10240</Exclude>
+						<Exclude>10586</Exclude>
+						<Exclude>14393</Exclude>
+						<Exclude>15063</Exclude>
+						<Exclude>16299</Exclude>
+						<Exclude>17134</Exclude>
+					</Category>			
+					<Category Property="Version" Class="Win32_Product" Where="Name like '%SupportAssistBusinessClient%'">
+						<Include>.*</Include>
+						<Exclude>2.1.5.101</Exclude>
+						<Exclude>2.1.4.135</Exclude>
+					</Category>
+					</Categories>
+				</DependsOn>
+			</Product>
+			<Product>
+				<ID>SupportAssistCertificate</ID>
+				<DisplayName>Dell SupportAssist Shared Certificate</DisplayName>
+				<Version>
+					<MajorVersion>1</MajorVersion>
+					<MinorVersion>0</MinorVersion>
+					<BuildNumber>0</BuildNumber>
+					<Revision>1</Revision>
+				</Version>	
+				<DownloadPathURL>serviceability/Catalog/SupportAssist.crt</DownloadPathURL>
+				<DownloadFilehash>EEEB05AA5B037B857C3DC689FD4DEE7E03BF8AC8E3D3A823F0F2AE0299F1F8C9</DownloadFilehash>
+				<releaseDate>2018-01-15T09:00:00</releaseDate>
+				<Criticality>
+						<Value>TBD</Value>
+						<Description>TBD</Description>
+						<Display>TBD</Display>
+						<ImportantInfoURL>TBD</ImportantInfoURL>
+					</Criticality>
+				<DependsOn>
+					<Categories>
+					  <Category Property="OSArchitecture" Class="Win32_OperatingSystem">
+						<Include>32</Include>
+						<Include>64</Include>
+					</Category>
+					</Categories>	
+				</DependsOn>
+		</Product>
+	</CommercialProducts>
+    <ConsumerProducts>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>SupportAssistInstaller</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>13</MinorVersion>
+          <BuildNumber>2</BuildNumber>
+          <Revision>14</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistInstaller.exe</DownloadPathURL>
+        <DownloadFilehash>1E77C5D23920E57592205296DE01AD09C9C3473D767726E8AE0DECB354DEE1EE</DownloadFilehash>
+        <InstallParams xsi:nil="true" />
+        <Command xsi:nil="true" />
+        <InstallParams2 xsi:nil="true" />
+        <Criticality>
+          <Value>TBD</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>TBD</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">
+              <Include>^1\..*</Include>
+            </Category>
+            <Category Class="Win32_Process" Property="Name" Where="Name like '%SupportAssistInstaller%'">
+              <Include>.*</Include>
+              <Exclude>^SupportAssistInstaller.*</Exclude>
+            </Category>
+            <Category Class="Win32_Process" Property="Name" Where="Name like '%SupportAssistAgent.exe%' and SessionId != 0">
+              <Include>.*</Include>
+              <Exclude>^SupportAssistAgent.exe</Exclude>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>Dell SupportAssist</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>9</MinorVersion>
+          <BuildNumber>2</BuildNumber>
+          <Revision>57</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistx86-3.9.2.57.msi</DownloadPathURL>
+        <DownloadFilehash>E98A2564FF14EDE7819F292A3F215DCEEDC5AD45C778F7E3CD93E6BA99E26E03</DownloadFilehash>
+        <InstallParams>/i</InstallParams>
+        <Command>msiexec.exe</Command>
+        <InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>
+        <Criticality>
+          <Value>TBD</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>TBD</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_OperatingSystem" Property="OSArchitecture">
+              <Include>32</Include>
+            </Category>
+            <Category Class="Win32_OperatingSystem" Property="BuildNumber">
+              <Include>.*</Include>
+              <Exclude>7600</Exclude>
+              <Exclude>7601</Exclude>
+            </Category>
+			<Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">		
+              <Exclude>3.9.1</Exclude>
+              <Exclude>3.9</Exclude>
+              <Exclude>3.8.1</Exclude>
+              <Exclude>3.8</Exclude>
+              <Exclude>3.7</Exclude>
+              <Exclude>3.6.1</Exclude>
+			  <Exclude>3.5</Exclude>
+			  <Exclude>3.4.5</Exclude>
+			  <Exclude>3.4.1</Exclude>
+			  <Exclude>3.4</Exclude>
+			  <Exclude>3.3</Exclude>
+			  <Exclude>3.2</Exclude>
+			  <Exclude>3.1</Exclude>
+            </Category>
+			<Category Class="Win32_ComputerSystem" Property="Model">
+              <Exclude>Inspiron 14 3420</Exclude>
+            </Category>
+			<Category Class="Win32_Processor" Property="Architecture">
+              <Include>0</Include>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>Dell SupportAssist</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>9</MinorVersion>
+          <BuildNumber>2</BuildNumber>
+          <Revision>57</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistx64-3.9.2.57.msi</DownloadPathURL>
+        <DownloadFilehash>F8B31CC351FCC6BE6C4618B9C34798A04DA8642869F95C26F006DBE5ACF72BCF</DownloadFilehash>
+        <InstallParams>/i</InstallParams>
+        <Command>msiexec.exe</Command>
+        <InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>
+        <Criticality>
+          <Value>TBD</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>TBD</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_OperatingSystem" Property="OSArchitecture">
+              <Include>64</Include>
+            </Category>
+            <Category Class="Win32_OperatingSystem" Property="BuildNumber">
+              <Include>9200</Include>
+              <Include>9600</Include>
+              <Include>10240</Include>
+              <Include>10586</Include>
+              <Include>14393</Include>
+              <Include>15063</Include>
+              <Include>16299</Include>              
+              <Exclude>7600</Exclude>
+              <Exclude>7601</Exclude>
+            </Category>
+			<Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">		
+              <Exclude>3.9.1</Exclude>
+              <Exclude>3.9</Exclude>
+              <Exclude>3.8.1</Exclude>
+              <Exclude>3.8</Exclude>
+              <Exclude>3.7</Exclude>
+              <Exclude>3.6.1</Exclude>
+			  <Exclude>3.5</Exclude>
+			  <Exclude>3.4.5</Exclude>
+			  <Exclude>3.4.1</Exclude>
+			  <Exclude>3.4</Exclude>
+			  <Exclude>3.3</Exclude>
+			  <Exclude>3.2</Exclude>
+			  <Exclude>3.1</Exclude>
+            </Category>
+			<Category Class="Win32_ComputerSystem" Property="Model">
+              <Exclude>Inspiron 14 3420</Exclude>
+            </Category>
+			<Category Class="Win32_Processor" Property="Architecture">
+              <Include>9</Include>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>Dell SupportAssist</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>10</MinorVersion>
+          <BuildNumber>4</BuildNumber>
+          <Revision>18</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistx64-3.10.4.18.msi</DownloadPathURL>
+        <DownloadFilehash>A823701356939FA0F1E20E84511B15839D9A8E15D288CCBE5A8579B299805FCD</DownloadFilehash>
+        <InstallParams>/i</InstallParams>
+        <Command>msiexec.exe</Command>
+        <InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>
+        <Criticality>
+          <Value>TBD</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>TBD</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_OperatingSystem" Property="OSArchitecture">
+              <Include>64</Include>
+            </Category>
+            <Category Class="Win32_OperatingSystem" Property="BuildNumber">              
+			  <Include>17134</Include>
+              <Exclude>7600</Exclude>
+              <Exclude>7601</Exclude>                            
+            </Category>            
+			<Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">	
+              <Exclude>3.9.2</Exclude>			
+              <Exclude>3.9.1</Exclude>
+              <Exclude>3.9</Exclude>
+              <Exclude>3.8.1</Exclude>
+              <Exclude>3.8</Exclude>
+              <Exclude>3.7</Exclude>
+              <Exclude>3.6.1</Exclude>
+			  <Exclude>3.5</Exclude>
+			  <Exclude>3.4.5</Exclude>
+			  <Exclude>3.4.1</Exclude>
+			  <Exclude>3.4</Exclude>
+			  <Exclude>3.3</Exclude>
+			  <Exclude>3.2</Exclude>
+			  <Exclude>3.1</Exclude>
+            </Category>
+			<Category Class="Win32_ComputerSystem" Property="Model">
+              <Exclude>Inspiron 14 3420</Exclude>
+            </Category>
+			<Category Class="Win32_Processor" Property="Architecture">
+              <Include>9</Include>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>Dell SupportAssist</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>10</MinorVersion>
+          <BuildNumber>4</BuildNumber>
+          <Revision>18</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistx64-3.10.4.18.msi</DownloadPathURL>
+        <DownloadFilehash>A823701356939FA0F1E20E84511B15839D9A8E15D288CCBE5A8579B299805FCD</DownloadFilehash>
+        <InstallParams>/i</InstallParams>
+        <Command>msiexec.exe</Command>
+        <InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>
+        <Criticality>
+          <Value>TBD</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>TBD</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_OperatingSystem" Property="OSArchitecture">
+              <Include>64</Include>
+            </Category>
+            <Category Class="Win32_OperatingSystem" Property="BuildNumber"> 
+              <Exclude>9200</Exclude>
+              <Exclude>9600</Exclude>
+              <Exclude>10240</Exclude>
+              <Exclude>10586</Exclude>
+              <Exclude>14393</Exclude>
+              <Exclude>15063</Exclude>
+              <Exclude>16299</Exclude>			
+			  <Exclude>17134</Exclude>
+              <Exclude>7600</Exclude>
+              <Exclude>7601</Exclude>                            
+            </Category>            
+			<Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">	
+              <Include>3.9.2</Include>			
+              <Include>3.9.1</Include>
+              <Include>3.9</Include>
+              <Include>3.8.1</Include>
+              <Include>3.8</Include>
+              <Include>3.7</Include>
+              <Include>3.6.1</Include>
+			  <Include>3.5</Include>
+			  <Include>3.4.5</Include>
+			  <Include>3.4.1</Include>
+			  <Include>3.4</Include>
+			  <Include>3.3</Include>
+			  <Include>3.2</Include>
+			  <Include>3.1</Include>			  
+            </Category>
+			<Category Class="Win32_ComputerSystem" Property="Model">
+              <Exclude>Inspiron 14 3420</Exclude>
+            </Category>
+			<Category Class="Win32_Processor" Property="Architecture">
+              <Include>9</Include>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>Dell SupportAssist</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>13</MinorVersion>
+          <BuildNumber>2</BuildNumber>
+          <Revision>14</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistx64-3.13.2.14.msi</DownloadPathURL>
+        <DownloadFilehash>EA10598C66B581D017F7AEB4775C49B9CFC2CD20850DAE2A4AD02FE68600510A</DownloadFilehash>
+        <InstallParams>/i</InstallParams>
+        <Command>msiexec.exe</Command>
+        <InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>
+        <Criticality>
+          <Value>6.0.9</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>https://download.visualstudio.microsoft.com/download/pr/9dc77a6b-0276-4ad5-9bfa-d84b546686ef/f01bbcf2dc0e7f5dbd0a7d337fd4cd43/dotnet-runtime-6.0.9-win-x64.exe</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_OperatingSystem" Property="OSArchitecture">
+              <Include>64</Include>
+            </Category>
+            <Category Class="Win32_OperatingSystem" Property="BuildNumber">
+              <Include>.*</Include>
+              <Exclude>7600</Exclude>
+              <Exclude>7601</Exclude>
+              <Exclude>9200</Exclude>
+              <Exclude>9600</Exclude>
+              <Exclude>10240</Exclude>
+              <Exclude>10586</Exclude>
+              <Exclude>14393</Exclude>
+              <Exclude>15063</Exclude>
+              <Exclude>16299</Exclude>
+              <Exclude>17134</Exclude>
+            </Category>
+            <Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">
+              <Exclude>3.9.2</Exclude>
+              <Exclude>3.9.1</Exclude>
+              <Exclude>3.9</Exclude>
+              <Exclude>3.8.1</Exclude>
+              <Exclude>3.8</Exclude>
+              <Exclude>3.7</Exclude>
+              <Exclude>3.6.1</Exclude>
+            </Category>
+			<Category Class="Win32_ComputerSystem" Property="Model">
+              <Exclude>Inspiron 14 3420</Exclude>
+            </Category>
+			<Category Class="Win32_Processor" Property="Architecture">
+              <Include>9</Include>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>
+      <Product>
+        <ID>SupportAssistConsumer</ID>
+        <DisplayName>Dell SupportAssist</DisplayName>
+        <Version>
+          <MajorVersion>3</MajorVersion>
+          <MinorVersion>13</MinorVersion>
+          <BuildNumber>2</BuildNumber>
+          <Revision>15</Revision>
+        </Version>
+        <DownloadPathURL>serviceability/Catalog/SupportAssistx64-3.13.2.14.msp</DownloadPathURL>
+        <DownloadFilehash>64F6729912E494B7748A7FF8F03DED5082136FBD3A967C2FBC45FD9BFBE51B5A</DownloadFilehash>
+        <InstallParams>/p</InstallParams>
+        <Command>msiexec.exe</Command>
+        <InstallParams2>/qn REBOOT=ReallySuppress /norestart</InstallParams2>
+        <Criticality>
+          <Value>6.0.9</Value>
+          <Description>TBD</Description>
+          <Display>TBD</Display>
+          <ImportantInfoURL>https://download.visualstudio.microsoft.com/download/pr/9dc77a6b-0276-4ad5-9bfa-d84b546686ef/f01bbcf2dc0e7f5dbd0a7d337fd4cd43/dotnet-runtime-6.0.9-win-x64.exe</ImportantInfoURL>
+        </Criticality>
+        <DependsOn>
+          <Categories>
+            <Category Class="Win32_OperatingSystem" Property="OSArchitecture">
+              <Include>64</Include>
+            </Category>
+            <Category Class="Win32_Product" Property="Version" Where="Name like '%SupportAssistAgent%'">
+              <Include>3.13.2.14</Include>
+            </Category>
+			<Category Class="Win32_ComputerSystem" Property="Model">
+              <Exclude>Inspiron 14 3420</Exclude>
+            </Category>
+			<Category Class="Win32_Processor" Property="Architecture">
+              <Include>9</Include>
+            </Category>
+          </Categories>
+        </DependsOn>
+      </Product>	 	  
+    </ConsumerProducts>
+  </Bundle>
+</DellSoftware>

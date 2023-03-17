@@ -1,0 +1,11 @@
+[2023-03-11 08:16:32.008 Client I] GitHub Codespaces version 1.13.10
+[2023-03-11 08:16:32.008 Client I] isRunningInWeb: "false"
+[2023-03-11 08:16:32.008 Client V] Initializing authentication
+[2023-03-11 08:16:32.026 Authentication I] Did not find existing login session
+[2023-03-11 08:16:32.026 Authentication I] Did not find existing login session
+[2023-03-11 08:16:32.027 API I] Signing out due to unsuccessful sign in attempt
+[2023-03-11 08:16:32.028 Client:extension:02f3 I] initializing
+[2023-03-11 08:16:32.028 Client:extension:02f3 I] creating LiveShare ConnectionHub, with type: "main thread"
+[2023-03-11 08:16:32.028 Client:extension:02f3 I] 1 connections used: > object #0: [object Object]
+[2023-03-11 08:16:32.029 Client:extension:02f3:resolver I] created with protocol "codespaces"
+[2023-03-11 08:16:32.029 RemoteExplorer I] Updating codespace performance info

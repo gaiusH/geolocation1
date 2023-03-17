@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SupportAssistOutofPlanConfiguration> 
+  <OutOfPlanConfiguration>
+    <SystemAge>5</SystemAge>
+	<RegionInclude>	
+		<Region>en-US</Region>
+	</RegionInclude>
+	<CommodityInclude>	
+		<Commodity>HardDrive</Commodity> 
+		<Commodity>SSD</Commodity>
+		<Commodity>Memory</Commodity>
+	</CommodityInclude>	
+	<LOB>
+	  <ModelName>Inspiron</ModelName>
+	  <ModelName>XPS</ModelName>
+	  <ModelName>Alienware</ModelName>
+	  <ModelName>G</ModelName>
+	  <ModelName>Dell G</ModelName>
+	  </LOB>
+  </OutOfPlanConfiguration>  
+</SupportAssistOutofPlanConfiguration>

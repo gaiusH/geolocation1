@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SupportAssistFeatureSettings>
+  <APOSNotification>
+    <RegionInclude>
+      <Region>en-US</Region>
+	  <Region>de-DE</Region>
+	  <Region>fr-FR</Region>
+	  <Region>en-GB</Region>
+    </RegionInclude>
+	<LOB>
+	  <ModelName>Inspiron</ModelName>
+	  <ModelName>XPS</ModelName>
+      <ModelName>Alienware</ModelName>
+      <ModelName>Latitude</ModelName>
+      <ModelName>OptiPlex</ModelName>
+      <ModelName>Vostro</ModelName>
+      <ModelName>Precision</ModelName>
+	  <ModelName>G</ModelName>
+	  <ModelName>Dell G</ModelName>
+    </LOB>
+  </APOSNotification>
+  <DataMigration>
+    <RegionInclude>
+      <Region>en-US</Region>
+	  <Region>en-CA</Region>
+      <Region>en-AU</Region>
+	  <Region>en-GB</Region>
+	  <Region>en-NZ</Region>
+      <Region>en-IN</Region>
+	  <Region>en-SG</Region>
+	  <Region>fr-CA</Region>
+      <Region>pt-BR</Region>
+	  <Region>de-DE</Region>
+	  <Region>nl-NL</Region>
+      <Region>es-ES</Region>
+	  <Region>de-CH</Region>
+	  <Region>fr-FR</Region>
+      <Region>sv-SE</Region>
+	  <Region>zh-CN</Region>
+	  <Region>ja-JP</Region>
+	  <Region>en-MY</Region>
+	  <Region>fr-CH</Region>
+	 </RegionInclude>
+	<LOB>
+	  <ModelName>Inspiron</ModelName>
+      <ModelName>Alienware</ModelName>
+      <ModelName>XPS</ModelName>
+	  <ModelName>G</ModelName>
+	  <ModelName>Dell G</ModelName>
+    </LOB>
+	<EntitlementInclude>
+	  <Entitlement>All</Entitlement>
+	</EntitlementInclude>
+  </DataMigration>
+  <SprinklrChatBot>
+    <RegionInclude>
+      <Region>en-IN</Region>
+    </RegionInclude>
+    <LOB>
+        <ModelName>Inspiron</ModelName>
+    </LOB>
+    <EntitlementInclude>
+        <Entitlement>Basic</Entitlement>
+    </EntitlementInclude>
+    <AdditionalSettings>
+        <Setting>
+            <Type>Include</Type>
+            <Regions>
+              <Region>1717</Region>
+              <Region>7450</Region>
+              <Region>7460</Region>
+              <Region>7465</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Vostro</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>
+            </LOBs>
+            <Entitlements>
+                <Entitlement>Basic</Entitlement>
+				<Entitlement>Premium</Entitlement>
+                <Entitlement>PremiumPlus</Entitlement>				
+            </Entitlements>
+            <Languages>
+              <Language>en-US</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+			  <Region>202</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Vostro</LOB>
+            </LOBs>
+            <Entitlements>
+                <Entitlement>Basic</Entitlement>
+				<Entitlement>Premium</Entitlement>
+                <Entitlement>PremiumPlus</Entitlement>	
+				<Entitlement>ProSupport</Entitlement>
+				<Entitlement>ProSupportPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>en-US</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+              <Region>3535</Region>			  
+            </Regions>
+            <LOBs>                
+			    <LOB>Vostro</LOB>
+				<LOB>OptiPlex</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>XPS</LOB> 
+				<LOB>Precision</LOB> 
+				<LOB>Alienware</LOB>
+				<LOB>Inspiron</LOB>
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>
+            </LOBs>
+            <Entitlements>
+               <Entitlement>Basic</Entitlement>
+			   <Entitlement>Premium</Entitlement>
+			   <Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+               <Language>ja-JP</Language>
+            </Languages>
+        </Setting>
+        <Setting>
+            <Type>Include</Type>
+            <Regions>
+              <Region>3696</Region>			  
+            </Regions>
+            <LOBs>                
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Vostro</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>Dell G</LOB>
+				<LOB>G</LOB>	    
+			</LOBs>
+            <Entitlements>
+               <Entitlement>Basic</Entitlement>
+			   <Entitlement>Premium</Entitlement>
+			   <Entitlement>PremiumPlus</Entitlement>
+			   <Entitlement>ProSupport</Entitlement>
+				<Entitlement>ProSupportPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+               <Language>pt-BR</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+              <Region>8270</Region>			  
+            </Regions>
+            <LOBs>                
+                <LOB>Vostro</LOB>
+				<LOB>OptiPlex</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Precision</LOB>
+				<LOB>Alienware</LOB>
+				<LOB>Inspiron</LOB>
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>
+			</LOBs>
+            <Entitlements>
+			   <Entitlement>Basic</Entitlement>
+               <Entitlement>Premium</Entitlement>
+			   <Entitlement>PremiumPlus</Entitlement>
+			   <Entitlement>ProSupport</Entitlement>
+			   <Entitlement>ProSupportPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+               <Language>zh-CN</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+			  <Region>11</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+                <Entitlement>Premium</Entitlement>
+                <Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>en-US</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+		    <Type>Include</Type>
+            <Regions>
+			  <Region>707</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+                <Entitlement>Premium</Entitlement>
+                <Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>en-US</Language>
+            </Languages>
+		</Setting>
+		<Setting>
+		    <Type>Include</Type>
+            <Regions>
+			  <Region>3232</Region>
+			  <Region>1919</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>Vostro</LOB>
+				<LOB>XPS</LOB>
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>es-XL</Language>
+            </Languages>
+		</Setting>
+		<Setting>
+		    <Type>Include</Type>
+            <Regions>
+			  <Region>1841</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>	
+				<LOB>Alienware</LOB>
+				<LOB>XPS</LOB>	
+				<LOB>Precision</LOB>	
+				<LOB>Optiplex</LOB>	
+				<LOB>Latitude</LOB>
+				<LOB>Vostro</LOB>	
+				<LOB>G</LOB>
+				<LOB>Dell G</LOB>				
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+				<Entitlement>Premium</Entitlement>
+				<Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>zh-TW</Language>
+            </Languages>
+		</Setting>
+		<Setting>
+		    <Type>Include</Type>
+            <Regions>
+			  <Region>808</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Vostro</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>Dell G</LOB>
+				<LOB>G</LOB>				
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+				<Entitlement>Premium</Entitlement>
+				<Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>de-DE</Language>
+            </Languages>
+		</Setting>
+		<Setting>
+		    <Type>Include</Type>
+            <Regions>
+			  <Region>1401</Region>
+			  <Region>4065</Region>
+			  <Region>1313</Region>
+			  <Region>4046</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Vostro</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>Dell G</LOB>
+				<LOB>G</LOB>				
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+				<Entitlement>Premium</Entitlement>
+				<Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>en-US</Language>
+            </Languages>
+		</Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+			  <Region>202</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Latitude</LOB>
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Premium</Entitlement>
+                <Entitlement>PremiumPlus</Entitlement>	
+				<Entitlement>ProSupport</Entitlement>
+				<Entitlement>ProSupportPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>en-US</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+              <Region>3535</Region>			  
+            </Regions>
+            <LOBs>                
+			    <LOB>Vostro</LOB>
+				<LOB>OptiPlex</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>XPS</LOB> 
+				<LOB>Precision</LOB> 
+				<LOB>Alienware</LOB>
+				<LOB>Inspiron</LOB>
+            </LOBs>
+            <Entitlements>
+				<Entitlement>ProSupport</Entitlement>
+				<Entitlement>ProSupportPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+               <Language>ja-JP</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+            <Type>Include</Type>
+            <Regions>
+              <Region>707</Region>			  
+            </Regions>
+            <LOBs>                
+			    <LOB>Vostro</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>XPS</LOB> 
+				<LOB>Inspiron</LOB>
+            </LOBs>
+            <Entitlements>
+				<Entitlement>ProSupport</Entitlement>
+				<Entitlement>ProSupportPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+               <Language>en-US</Language>
+            </Languages>
+        </Setting>
+		<Setting>
+		    <Type>Include</Type>
+            <Regions>
+			  <Region>909</Region>
+            </Regions>
+            <LOBs>
+                <LOB>Inspiron</LOB>
+				<LOB>XPS</LOB>
+				<LOB>Vostro</LOB>
+				<LOB>Latitude</LOB>
+				<LOB>Dell G</LOB>
+				<LOB>G</LOB>				
+            </LOBs>
+            <Entitlements>
+				<Entitlement>Basic</Entitlement>
+				<Entitlement>Premium</Entitlement>
+				<Entitlement>PremiumPlus</Entitlement>
+            </Entitlements>
+            <Languages>
+              <Language>fr-FR</Language>
+			  <Language>fr-CA</Language>
+            </Languages>
+		</Setting>
+	</AdditionalSettings>
+  </SprinklrChatBot> 
+  <SDU>
+    <RegionInclude>
+	    <Region>All</Region>
+	</RegionInclude>
+    <LOB>
+        <ModelName>All</ModelName>
+	</LOB>
+	<EntitlementInclude>
+        <Entitlement>All</Entitlement>
+    </EntitlementInclude>
+  </SDU>
+  <DSSNotification>
+	<RegionInclude>
+      <Region>en-US</Region>
+    </RegionInclude>
+	<LOB>
+	  <ModelName>Inspiron</ModelName>
+	  <ModelName>XPS</ModelName>
+      <ModelName>Alienware</ModelName>
+	  <ModelName>G</ModelName>
+	  <ModelName>Dell G</ModelName>
+    </LOB>
+	<EntitlementInclude>
+        <Entitlement>All</Entitlement>
+    </EntitlementInclude>
+  </DSSNotification>
+  <DellPrivacyProtect>
+    <RegionInclude>
+	    <Region>NA</Region>
+	</RegionInclude>
+    <LOB>
+        <ModelName>All</ModelName>
+	</LOB>
+	<EntitlementInclude>
+        <Entitlement>All</Entitlement>
+    </EntitlementInclude>
+  </DellPrivacyProtect>
+  <MicroSurvey> 
+    <RegionInclude>
+      <Region>11</Region>
+    </RegionInclude>
+    <LOB>
+        <ModelName>Inspiron</ModelName>
+    </LOB>
+    <EntitlementInclude>
+        <Entitlement>Basic</Entitlement>
+		<Entitlement>Premium</Entitlement>
+		<Entitlement>PremiumPlus</Entitlement>
+        <Entitlement>ProSupport</Entitlement>
+		<Entitlement>ProSupportPlus</Entitlement>
+		<Entitlement>ProSupportFlexForClient</Entitlement>
+		<Entitlement>DellSoftwareSupport</Entitlement>		
+    </EntitlementInclude>
+    <Languages>
+        <Language>en</Language>
+    </Languages>
+  </MicroSurvey>
+  <SystemTermYears>
+    <TermYears Region="en-US">
+      <Details LOB="Inspiron" Years="4"/>
+      <Details LOB="Alienware" Years="5"/>
+      <Details LOB="XPS" Years="4"/>
+      <Details LOB="G" Years="4" />
+	  <Details LOB="Dell G" Years="4" />
+      <Details LOB="Precision" Years="5" />
+      <Details LOB="Latitude" Years="5" />
+      <Details LOB="Optiplex" Years="5" />
+      <Details LOB="Vostro" Years="4" />
+    </TermYears>
+    <TermYears Region="en-GB">
+      <Details LOB="Inspiron" Years="4"/>
+      <Details LOB="Alienware" Years="5"/>
+      <Details LOB="XPS" Years="4"/>
+      <Details LOB="G" Years="4" />
+	  <Details LOB="Dell G" Years="4" />
+      <Details LOB="Precision" Years="5" />
+      <Details LOB="Latitude" Years="5" />
+      <Details LOB="Optiplex" Years="5" />
+      <Details LOB="Vostro" Years="4" />
+    </TermYears>
+    <TermYears Region="en-FR">
+      <Details LOB="Inspiron" Years="4"/>
+      <Details LOB="Alienware" Years="5"/>
+      <Details LOB="XPS" Years="4"/>
+      <Details LOB="G" Years="4" />
+	  <Details LOB="Dell G" Years="4" />
+      <Details LOB="Precision" Years="5" />
+      <Details LOB="Latitude" Years="5" />
+      <Details LOB="Optiplex" Years="5" />
+      <Details LOB="Vostro" Years="4" />
+    </TermYears>
+    <TermYears Region="en-DE">
+      <Details LOB="Inspiron" Years="4"/>
+      <Details LOB="Alienware" Years="5"/>
+      <Details LOB="XPS" Years="4"/>
+      <Details LOB="G" Years="4" />
+	  <Details LOB="Dell G" Years="4" />
+      <Details LOB="Precision" Years="5" />
+      <Details LOB="Latitude" Years="5" />
+      <Details LOB="Optiplex" Years="5" />
+      <Details LOB="Vostro" Years="4" />
+    </TermYears>
+  </SystemTermYears>
+</SupportAssistFeatureSettings>

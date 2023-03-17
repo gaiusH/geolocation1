@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Profile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lastSavedDateTime>2023-03-10 13:47:21.172</lastSavedDateTime>
+  <Device>
+    <SerialNumber>GHDLQL3</SerialNumber>
+    <ServiceTag>GHDLQL3</ServiceTag>
+    <Manufacturer>Dell Inc.</Manufacturer>
+    <Model>Inspiron 14 7420 2-in-1</Model>
+    <OsProfile>
+      <GeoId>244</GeoId>
+      <OsVersion>10.0.22621</OsVersion>
+      <OSSKU>101</OSSKU>
+      <OsLanguage>en-US</OsLanguage>
+      <OobeDate>2023-02-24 11:55:00.346</OobeDate>
+    </OsProfile>
+  </Device>
+</Profile>

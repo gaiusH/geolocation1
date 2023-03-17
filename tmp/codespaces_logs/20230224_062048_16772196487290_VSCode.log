@@ -1,0 +1,12 @@
+[2023-02-24 06:20:48.742 Client I] GitHub Codespaces version 1.13.9
+[2023-02-24 06:20:48.742 Client I] isRunningInWeb: "false"
+[2023-02-24 06:20:48.742 Client V] Initializing authentication
+[2023-02-24 06:20:48.936 Authentication I] Did not find existing login session
+[2023-02-24 06:20:48.937 Authentication I] Did not find existing login session
+[2023-02-24 06:20:48.937 API I] Signing out due to unsuccessful sign in attempt
+[2023-02-24 06:20:48.944 Client:extension:332a I] initializing
+[2023-02-24 06:20:48.945 Client:extension:332a I] creating LiveShare ConnectionHub, with type: "main thread"
+[2023-02-24 06:20:48.946 Client:extension:332a I] 1 connections used: > object #0: [object Object]
+[2023-02-24 06:20:48.947 Client:extension:332a:resolver I] created with protocol "codespaces"
+[2023-02-24 06:20:48.947 RemoteExplorer I] Updating codespace performance info
+[2023-02-27 14:23:36.816 Client:extension:332a:resolver V] disposing reason: 'vscode disposed the resolver', disposing 2 objects
